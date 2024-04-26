@@ -27,7 +27,7 @@ function verificarChute(){
       document.getElementById('reiniciar').removeAttribute('disabled');
     } else {
       if (chute > numeroSecreto){
-        exibirTextoNaTela('p','O numero secreto é menor.'),
+        exibirTextoNaTela('p','O numero secreto é menor');
       } else{
           exibirTextoNaTela('p','O numero secreto é maior');
         }
